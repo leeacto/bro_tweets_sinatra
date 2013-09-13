@@ -1,0 +1,41 @@
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+
+<style type="text/css">
+  html { height: 100% }
+  body { height: 100%; margin: 0; padding: 0 }
+  #map-canvas { height: 100% }
+</style>
+
+
+<header><h1>BroTweets</h1></header>
+<div id="srch_status" class="hidden"></div>
+<div id="srch_box">
+	<form class="round" id="srch_map" action='/' method="POST">
+	  <label for="zip">Zip Code</label><input type="text" id="zip" name="zip" placeholder="Zip Code">
+	  <input id="zip_srch" type="button" value="Center Location">
+	</form>
+
+	<form action = '/' method='POST'>
+		<input type='button' id='find_tweets' value='Get Them Tweets'>
+	</form>
+</div>
+
+<div id="map-canvas"></div>
+
+<div class = "round" id="list_box">
+	<form id="term_form" action='#' method="POST">
+	  <label for="term">Add Bro Term</label>
+	  <input type="text" id="term" name="term" placeholder="Bro Term">
+	  <input id="bro_srch" type="button" value="Tag That">
+	</form>
+
+
+	<div id="list_head">Brocabulary</div>
+	<ul id="bro_tweets">
+		<li id="list_1">beer</li>
+		<li id="list_2">dubstep</li>
+		<li id="list_3">cubs</li>
+		<li id="list_4">#cargoshorts</li>
+		<li id="list_5">rhcp</li>
+	</ul>
+</div>
