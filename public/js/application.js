@@ -60,6 +60,7 @@ $(document).ready(function() {
     var term = $('#term').val('');
   });
 
+
 	$('#srch_map').on('submit', function(event) {
 		event.preventDefault();
 		codeAddress();

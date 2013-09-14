@@ -37,7 +37,7 @@ get '/markers' do
 	send_hash = {}
 	tweet_hash = {}
 	Tweet.all.each do |t|
-		tweet_hash[t.id] = t.with_tweeter
+		tweet_hash[t.id] = t.with_tweeter if t.created_at > Time.now - 60
 	end
 	send_hash = { :tweet => tweet_hash }
 	send_hash.to_json
