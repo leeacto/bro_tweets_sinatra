@@ -61,10 +61,10 @@ $(document).ready(function() {
   });
 
 
-	$('#srch_map').on('submit', function(event) {
-		event.preventDefault();
-		codeAddress();
-	});
+  $('#srch_map').on('submit', function(event) {
+    event.preventDefault();
+    codeAddress();
+  });
 
   $('#zip_srch').on('click', function(event) {
     event.preventDefault();

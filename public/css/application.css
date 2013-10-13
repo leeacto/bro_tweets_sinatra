@@ -9,93 +9,93 @@ th {
 }
 
 #map-canvas {
-	float: left;
-	width: 75%;
-	margin-top: 7%;
-	margin-left: 5%;
+  float: left;
+  width: 75%;
+  margin-top: 7%;
+  margin-left: 5%;
 }
 
 #zip {
-	margin-left: 1em;
+  margin-left: 1em;
 }
 
 #zip_srch {
-	margin-left: 70px;
+  margin-left: 70px;
 }
 
 #srch_status {
-	border: 5px solid green;
-	position: fixed;
-	top:100px;
-	margin: 0 auto 0 auto;
-	background-color: white;
-	width: 15%;
-	text-align: center;
-	left: 42%;
+  border: 5px solid green;
+  position: absolute;
+  top:100px;
+  margin: 0 auto 0 auto;
+  background-color: white;
+  width: 15%;
+  text-align: center;
+  left: 42%;
 }
 
 #list_box {
-	border: 5px solid green;
-	position: fixed;
-	top:100px;
-	right: 2%;
-	background-color: white;
-	width: 15%;
+  border: 5px solid green;
+  position: fixed;
+  top:100px;
+  right: 2%;
+  background-color: white;
+  width: 15%;
 }
 #bro_tweets {
-	padding-left: 24px;
+  padding-left: 24px;
 }
 #term_form {
-	display: inline-block;
-	padding: 5px;
-	right: 2%;
+  display: inline-block;
+  padding: 5px;
+  right: 2%;
 }
 
 #list_head {
-	border-bottom: 5px solid green;
-	border-top: 5px solid green;
-	margin-top: 2px;
-	text-align: center;
-	padding: 5px;
+  border-bottom: 5px solid green;
+  border-top: 5px solid green;
+  margin-top: 2px;
+  text-align: center;
+  padding: 5px;
 }
 
 #search_box {
-	background-color: white;
-	width: 10%;
+  background-color: white;
+  width: 10%;
 }
 
 #find_tweets {
-	position: relative;
-	left: 10%;
+  position: relative;
+  left: 10%;
 }
 #srch_map {
-	width: 200px;
-	background-color: white;
-	margin-left: 2%;
-	padding-left: 1em;
-	border: 5px solid green;
-	padding: 4px;
+  width: 200px;
+  background-color: white;
+  margin-left: 2%;
+  padding-left: 1em;
+  border: 5px solid green;
+  padding: 4px;
 }
 
 body {
-	background-image:url('../1_Wrigley_Field.jpg')
+  background-image:url('../1_Wrigley_Field.jpg')
 }
 
 header {
-	background-color: white;
-	width: 40%;
-	border: 5px solid green;
-	margin: 5px auto 5px auto;
+  background-color: white;
+  width: 40%;
+  border: 5px solid green;
+  margin: 5px auto 5px auto;
 }
 
 header h1 {
-	text-align: center;
+  text-align: center;
 }
 
 .round {
-	border-radius: 5px;
+  border-radius: 5px;
 }
 
 .hidden {
-	display: none;
+  display: none;
 }
